@@ -1,0 +1,56 @@
+body{
+    background: beige;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.menu{
+    background:#333;
+    border: 2px black solid;
+}
+
+a{
+    text-decoration: none;
+    color: beige;
+}
+
+.menu li{
+    border: 2px solid greenyellow;
+}
+
+.article{
+    background:#333;
+    color: beige;
+    border: 2px black solid;
+}
+
+.aside{
+    background:#333;
+    color: beige;
+    border: 2px black solid;
+}
+
+@media only screen and (min-width: 768px){
+
+.menu ul{
+    display: flex;
+    /*flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;*/
+}
+
+.flex-container{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.article{
+    width: 70%;
+}
+
+.aside{
+    width: 30%;
+}
+
+}

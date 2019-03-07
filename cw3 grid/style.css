@@ -1,0 +1,30 @@
+body{
+    background: lightblue;
+}
+
+.grid-container{
+    display: grid;
+    width: 50%;
+    margin: 0 auto;
+    grid-template-columns: auto auto auto;
+    /*grid-row-gap: 50px;
+    grid-column-gap: 50px;*/
+    background: lightseagreen;
+    justify-content: center;
+}
+
+.grid-item{
+    display: inline-grid;
+    border: 2px solid yellowgreen;
+    min-height: 100px;
+    min-width: 100px;
+    background: purple;
+    border-radius: 10%;
+}
+
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
